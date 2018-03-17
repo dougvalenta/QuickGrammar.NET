@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickGrammar", "QuickGrammar\QuickGrammar.csproj", "{AB84038F-0B26-407C-856D-EDDFA835C359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickGrammar.Tests", "QuickGrammar.Tests\QuickGrammar.Tests.csproj", "{994B700C-DB9B-4EDD-A0AD-6B997C5B58D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB84038F-0B26-407C-856D-EDDFA835C359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB84038F-0B26-407C-856D-EDDFA835C359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB84038F-0B26-407C-856D-EDDFA835C359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB84038F-0B26-407C-856D-EDDFA835C359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994B700C-DB9B-4EDD-A0AD-6B997C5B58D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994B700C-DB9B-4EDD-A0AD-6B997C5B58D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994B700C-DB9B-4EDD-A0AD-6B997C5B58D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994B700C-DB9B-4EDD-A0AD-6B997C5B58D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabsToSpaces = True
+		$2.scope = text/plain
+		$0.StandardHeader = $3
+		$3.Text = @Copyright ${Year} ${CopyrightHolder}\nLicensed under the terms of the MIT License.
+		$0.VersionControlPolicy = $4
+	EndGlobalSection
+EndGlobal
